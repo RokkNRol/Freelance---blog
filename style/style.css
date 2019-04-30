@@ -429,4 +429,9 @@ h1 {
    float: right;
    border: 1px solid #cccccc;
    padding: 4px;
+   transition-duration: .5s;
+}
+
+.block__p > img:hover {
+   transform: scale(1.01);
 }
